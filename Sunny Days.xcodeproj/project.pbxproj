@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		962607611B2C041D0017C765 /* Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962607601B2C041D0017C765 /* Current.swift */; };
 		9626B5AD1AEAB951005F85A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9626B5AC1AEAB951005F85A6 /* AppDelegate.swift */; };
 		9626B5AF1AEAB951005F85A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9626B5AE1AEAB951005F85A6 /* ViewController.swift */; };
 		9626B5B21AEAB951005F85A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9626B5B01AEAB951005F85A6 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		962607601B2C041D0017C765 /* Current.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Current.swift; sourceTree = "<group>"; };
 		9626B5A71AEAB951005F85A6 /* Sunny Days.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sunny Days.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9626B5AB1AEAB951005F85A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9626B5AC1AEAB951005F85A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 		9626B59E1AEAB951005F85A6 = {
 			isa = PBXGroup;
 			children = (
+				962607601B2C041D0017C765 /* Current.swift */,
 				9626B5A91AEAB951005F85A6 /* Sunny Days */,
 				9626B5BF1AEAB951005F85A6 /* Sunny DaysTests */,
 				9626B5A81AEAB951005F85A6 /* Products */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				962607611B2C041D0017C765 /* Current.swift in Sources */,
 				9626B5AF1AEAB951005F85A6 /* ViewController.swift in Sources */,
 				9626B5AD1AEAB951005F85A6 /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +413,7 @@
 				9626B5C81AEAB951005F85A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9626B5C91AEAB951005F85A6 /* Build configuration list for PBXNativeTarget "Sunny DaysTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				9626B5CB1AEAB951005F85A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

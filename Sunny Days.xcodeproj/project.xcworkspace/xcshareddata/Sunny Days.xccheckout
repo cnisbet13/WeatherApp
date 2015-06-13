@@ -7,25 +7,29 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>218FFB07-7791-40A0-AE5B-C550172164D8</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Sunny Days</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>82D0D6878C153D153A1EE78FA29BD5A6A70FD801</key>
+		<string>https://github.com/cnisbet13/WeatherApp.git</string>
 		<key>8F41B4E3B45357F56988EF89B83EB7E9F4DBA817</key>
 		<string>https://github.com/cnisb044/Bill-Splitter.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Sunny Days/Sunny Days.xcodeproj/project.xcworkspace</string>
+	<string>Sunny Days.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>82D0D6878C153D153A1EE78FA29BD5A6A70FD801</key>
+		<string>../..</string>
 		<key>8F41B4E3B45357F56988EF89B83EB7E9F4DBA817</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/cnisb044/Bill-Splitter.git</string>
+	<string>https://github.com/cnisbet13/WeatherApp.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>8F41B4E3B45357F56988EF89B83EB7E9F4DBA817</string>
+	<string>82D0D6878C153D153A1EE78FA29BD5A6A70FD801</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -34,7 +38,15 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>8F41B4E3B45357F56988EF89B83EB7E9F4DBA817</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Xcode</string>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>82D0D6878C153D153A1EE78FA29BD5A6A70FD801</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Sunny%20Days</string>
 		</dict>
 	</array>
 </dict>
