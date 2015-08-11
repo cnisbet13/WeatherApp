@@ -65,6 +65,12 @@ class WeeklyTableViewController: UITableViewController {
         return 1
     }
     
+    
+    override func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return "Weekly Forecast"
+    }
+    
+    
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
@@ -86,7 +92,27 @@ class WeeklyTableViewController: UITableViewController {
         return cell
     }
     
+    
+    
+    //mark: - delegate methods
+    
+    override func tableView(tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
+        view.tintColor = UIColor(red: 170/255.0, green: 131/255.0, blue: 244/255.0, alpha: 1.0)
+        
+        if let header = view as? UITableViewHeaderFooterView {
+            header.textLabel.font = UIFont(name: "HelveticaNeue-Thin", size: 14.0)
+            header.textLabel.textColor = UIColor.whiteColor()
+        }
+    }
+    
+    
+    
+    
     // MARK: - Weather Fetching
+    
+    
+    
+    
     
     func retrieveWeatherForecast() {
         let forecastService = ForecastService(APIKey: forecastAPIKey)
