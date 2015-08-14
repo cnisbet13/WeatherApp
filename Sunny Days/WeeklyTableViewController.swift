@@ -38,6 +38,7 @@ class WeeklyTableViewController: UITableViewController {
         //Setting our custom height for the tableviewcells
         tableView.rowHeight = 64
         
+    
         
         // Change the font and size of nav bar text
         if let navBarFont = UIFont(name: "HelveticaNeue-Thin", size: 20.0) {
@@ -47,8 +48,15 @@ class WeeklyTableViewController: UITableViewController {
             ]
             navigationController?.navigationBar.titleTextAttributes = navBarAttributesDictionary
         }
+    //Refresh Control
+    refreshControl?.layer.zPosition = tableView.backgroundView!.layer.zPosition + 1
     }
     
+    
+    @IBAction func refreshed() {
+        retrieveWeatherForecast()
+        refreshControl?.endRefreshing()
+    }
     
    
     
@@ -57,6 +65,20 @@ class WeeklyTableViewController: UITableViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    //Navigation
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "showToday" {
+            if let indexPath = tableView.indexPathForSelectedRow() {
+                let dailyWeather = weeklyWeather[indexPath.row]
+                
+                (segue.destinationViewController as! ViewController).dailyWeather = dailyWeather
+            }
+        }
+    }
+    
     
     // MARK: - Table view data source
      

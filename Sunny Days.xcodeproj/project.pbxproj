@@ -23,6 +23,7 @@
 		96BBC3B11B57B0820039AC07 /* TodayWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BBC3B01B57B0820039AC07 /* TodayWeather.swift */; };
 		96E05DC91B63874B00EB4DBB /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E05DC81B63874B00EB4DBB /* Icon.swift */; };
 		96E05DCB1B6393CB00EB4DBB /* WeatherForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E05DCA1B6393CB00EB4DBB /* WeatherForecast.swift */; };
+		96F4E86B1B7CCDB60078C1A7 /* DetailBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F4E86A1B7CCDB60078C1A7 /* DetailBackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		96BBC3B01B57B0820039AC07 /* TodayWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayWeather.swift; sourceTree = "<group>"; };
 		96E05DC81B63874B00EB4DBB /* Icon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Icon.swift; path = ../Icon.swift; sourceTree = "<group>"; };
 		96E05DCA1B6393CB00EB4DBB /* WeatherForecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherForecast.swift; sourceTree = "<group>"; };
+		96F4E86A1B7CCDB60078C1A7 /* DetailBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailBackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				9626B5B01AEAB951005F85A6 /* Main.storyboard */,
+				96F4E86A1B7CCDB60078C1A7 /* DetailBackgroundView.swift */,
 				96BBC2C01B4C82BE0039AC07 /* Background.swift */,
 				96980A971B77A7FE0047E5B3 /* DailyTableViewCell.swift */,
 			);
@@ -278,6 +281,7 @@
 				962607611B2C041D0017C765 /* CurrentWeather.swift in Sources */,
 				96E05DCB1B6393CB00EB4DBB /* WeatherForecast.swift in Sources */,
 				96BBC2BF1B4C80630039AC07 /* WeeklyTableViewController.swift in Sources */,
+				96F4E86B1B7CCDB60078C1A7 /* DetailBackgroundView.swift in Sources */,
 				962607741B3190C90017C765 /* ForecastService.swift in Sources */,
 				96E05DC91B63874B00EB4DBB /* Icon.swift in Sources */,
 				9626B5AF1AEAB951005F85A6 /* ViewController.swift in Sources */,

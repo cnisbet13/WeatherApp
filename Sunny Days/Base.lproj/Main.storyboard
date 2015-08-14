@@ -16,12 +16,94 @@
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS" customClass="DetailBackgroundView" customModule="Sunny_Days" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clear-day" translatesAutoresizingMaskIntoConstraints="NO" id="Cze-Zy-nbe">
+                                <rect key="frame" x="255" y="197" width="90" height="90"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sunrise" translatesAutoresizingMaskIntoConstraints="NO" id="Md4-7t-MZ3">
+                                <rect key="frame" x="531" y="524" width="25" height="25"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Very sunny throughout the day" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yny-HO-PTf">
+                                <rect key="frame" x="193" y="320" width="215" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sunrise" translatesAutoresizingMaskIntoConstraints="NO" id="pna-tn-cGQ">
+                                <rect key="frame" x="41" y="524" width="25" height="25"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="8:43 PM" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZC-CU-y68">
+                                <rect key="frame" x="521" y="557" width="44" height="15"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="7:18 AM" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GUH-Pb-bGD">
+                                <rect key="frame" x="31" y="557" width="44" height="15"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="valueBox" translatesAutoresizingMaskIntoConstraints="NO" id="JDn-UG-czQ">
+                                <rect key="frame" x="155" y="344" width="65" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65" id="29Q-Az-QIK"/>
+                                    <constraint firstAttribute="height" constant="57" id="pNw-nZ-nMx"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="valueBox" translatesAutoresizingMaskIntoConstraints="NO" id="e9Y-sB-BJf">
+                                <rect key="frame" x="235" y="344" width="65" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="Vzy-gx-8Wx"/>
+                                    <constraint firstAttribute="width" constant="65" id="Zmj-cA-7is"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="valueBox" translatesAutoresizingMaskIntoConstraints="NO" id="yqa-hY-lfF">
+                                <rect key="frame" x="315" y="344" width="65" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="78A-hf-wqB"/>
+                                    <constraint firstAttribute="width" constant="65" id="b80-7L-IiW"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="valueBox" translatesAutoresizingMaskIntoConstraints="NO" id="edo-6g-qQw">
+                                <rect key="frame" x="395" y="344" width="65" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="FDu-jB-Lxx"/>
+                                    <constraint firstAttribute="width" constant="65" id="w9X-WN-vA4"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="0.0" green="0.5" blue="0.99148284313725477" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="JDn-UG-czQ" secondAttribute="centerX" id="9I7-tP-qfB"/>
+                            <constraint firstItem="e9Y-sB-BJf" firstAttribute="top" secondItem="Yny-HO-PTf" secondAttribute="bottom" constant="3" id="9ej-y4-27U"/>
+                            <constraint firstItem="JDn-UG-czQ" firstAttribute="top" secondItem="Yny-HO-PTf" secondAttribute="bottom" constant="3" id="Ejb-kk-DxP"/>
+                            <constraint firstItem="JDn-UG-czQ" firstAttribute="top" secondItem="Yny-HO-PTf" secondAttribute="bottom" constant="3" id="WS7-8k-Cuc"/>
+                            <constraint firstItem="JDn-UG-czQ" firstAttribute="top" secondItem="Yny-HO-PTf" secondAttribute="bottom" constant="3" id="c1G-Ui-dXO"/>
+                            <constraint firstItem="e9Y-sB-BJf" firstAttribute="leading" secondItem="JDn-UG-czQ" secondAttribute="trailing" constant="15" id="csF-nB-bFY"/>
+                            <constraint firstItem="edo-6g-qQw" firstAttribute="leading" secondItem="yqa-hY-lfF" secondAttribute="trailing" constant="15" id="dZl-JP-7hd"/>
+                            <constraint firstItem="yqa-hY-lfF" firstAttribute="leading" secondItem="e9Y-sB-BJf" secondAttribute="trailing" constant="15" id="e6R-4e-nmf"/>
+                            <constraint firstItem="edo-6g-qQw" firstAttribute="top" secondItem="Yny-HO-PTf" secondAttribute="bottom" constant="3" id="l1P-cj-B7N"/>
+                            <constraint firstItem="yqa-hY-lfF" firstAttribute="top" secondItem="Yny-HO-PTf" secondAttribute="bottom" constant="3" id="okw-xF-0tP"/>
+                            <constraint firstAttribute="centerX" secondItem="JDn-UG-czQ" secondAttribute="centerX" constant="-112" id="xXr-Fz-Q5A"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Ejb-kk-DxP"/>
+                                <exclude reference="c1G-Ui-dXO"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="4TI-aJ-gBu"/>
+                    <connections>
+                        <outlet property="sunriseLabel" destination="GUH-Pb-bGD" id="vJH-5b-gNr"/>
+                        <outlet property="sunsetLabel" destination="XZC-CU-y68" id="WkJ-7R-cfz"/>
+                        <outlet property="weatherImage" destination="Cze-Zy-nbe" id="oqK-Iq-yRQ"/>
+                        <outlet property="weatherSummary" destination="Yny-HO-PTf" id="ruh-sI-f98"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
@@ -199,7 +281,7 @@
                                     <outlet property="TempLabel" destination="WVo-JH-wRf" id="XKz-jb-eHw"/>
                                     <outlet property="dayLabel" destination="faj-DK-b7r" id="nT8-uh-HTe"/>
                                     <outlet property="weatherIcon" destination="5Pf-V1-yB7" id="KwF-c9-J6Y"/>
-                                    <segue destination="vXZ-lx-hvc" kind="show" id="Zc8-Vj-UqQ"/>
+                                    <segue destination="vXZ-lx-hvc" kind="show" identifier="showToday" id="Zc8-Vj-UqQ"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -209,6 +291,12 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Weekly" id="Fuo-9Y-FiW"/>
+                    <refreshControl key="refreshControl" opaque="NO" multipleTouchEnabled="YES" contentMode="center" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="Yrg-xH-OCo">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <connections>
+                            <action selector="refreshed" destination="588-Wh-0v8" eventType="valueChanged" id="a3l-0a-Hfa"/>
+                        </connections>
+                    </refreshControl>
                     <connections>
                         <outlet property="currentPrecipitationLabel" destination="PyJ-BH-cE7" id="ZFr-aA-CgD"/>
                         <outlet property="currentTemperatureLabel" destination="fpa-bs-zxT" id="wV2-Od-Ats"/>
@@ -218,7 +306,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SO4-aU-GO9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1068.75" y="385.56338028169012"/>
+            <point key="canvasLocation" x="781" y="385"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="5JY-tj-lIc">
@@ -228,6 +316,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="Gi7-iv-Iud">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="barTintColor" red="0.39215686274509803" green="0.51372549019607838" blue="0.8784313725490196" alpha="0.5" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -241,7 +330,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="clear-day" width="58" height="60"/>
         <image name="default" width="28" height="28"/>
+        <image name="sunrise" width="24" height="20"/>
         <image name="temperatureIconBG" width="42" height="43"/>
+        <image name="valueBox" width="55" height="47"/>
     </resources>
 </document>
